@@ -13,7 +13,7 @@ def principal():
     base_dir = get_ruta_proyecto()
     
     # Abrir una imagen para la aplicación interactiva
-    ruta_entrada = os.path.join(base_dir, "imagenes", "imagen1.jpg")
+    ruta_entrada = os.path.join(base_dir, "imagenes", "imagen2.jpg")
     img = cargar_imagen(ruta_entrada)
     
     if img is None:
